@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" fill="none" role="img" aria-label="4 tahap sanitasi dan sterilisasi food-grade botol Djamojo">
+  <defs>
+    <linearGradient id="bgSan" x1="0" y1="0" x2="0" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#faf6f1"/>
+      <stop offset="1" stop-color="#e2ecd9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#bgSan)"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#314b20">SOP Sanitasi &amp; Sterilisasi Food-Grade</text>
+  <text x="600" y="74" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" letter-spacing="2" fill="#9c6f44">SOP 5.2 · 121°C · 15 PSI · 20 MENIT · STANDAR FARMASI</text>
+
+  <!-- 4 STAGES GRID -->
+  <!-- Stage 1 -->
+  <g transform="translate(60,120)">
+    <rect width="260" height="280" rx="14" fill="#fdf8ec" stroke="#5d8a3f" stroke-width="1.5"/>
+    <rect x="0" y="0" width="260" height="44" rx="14" fill="#5d8a3f"/>
+    <text x="20" y="29" font-family="Inter, sans-serif" font-size="11" letter-spacing="2" fill="#fdf8ec">TAHAP 1</text>
+    <text x="240" y="29" text-anchor="end" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#fdf8ec">01</text>
+    <!-- Icon: water immersion -->
+    <g transform="translate(100,80)">
+      <rect x="0" y="20" width="60" height="50" rx="4" fill="#7da5c4" opacity="0.5"/>
+      <rect x="22" y="10" width="16" height="6" fill="#5d8a3f"/>
+      <path d="M20 16 L20 24 L18 26 L18 64 Q18 70 24 70 L36 70 Q42 70 42 64 L42 26 L40 24 L40 16 Z" fill="#e2ecd9" stroke="#5d8a3f" stroke-width="1.2"/>
+      <path d="M0 30 Q15 35 30 30 Q45 25 60 30" stroke="#5d8a3f" stroke-width="1" fill="none"/>
+    </g>
+    <text x="130" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#314b20">Dekontaminasi</text>
+    <text x="130" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#314b20">&amp; Perendaman</text>
+    <line x1="40" y1="232" x2="220" y2="232" stroke="#c79919" stroke-width="0.8"/>
+    <text x="130" y="252" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#314b20">60°C · biodegradable</text>
+    <text x="130" y="268" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#314b20">20 menit</text>
+  </g>
+
+  <!-- Stage 2 -->
+  <g transform="translate(340,120)">
+    <rect width="260" height="280" rx="14" fill="#fdf8ec" stroke="#5d8a3f" stroke-width="1.5"/>
+    <rect x="0" y="0" width="260" height="44" rx="14" fill="#5d8a3f"/>
+    <text x="20" y="29" font-family="Inter, sans-serif" font-size="11" letter-spacing="2" fill="#fdf8ec">TAHAP 2</text>
+    <text x="240" y="29" text-anchor="end" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#fdf8ec">02</text>
+    <!-- Icon: brush on bottle -->
+    <g transform="translate(110,75)">
+      <rect x="14" y="0" width="12" height="6" fill="#5d8a3f"/>
+      <path d="M12 6 L12 14 L10 16 L10 60 Q10 66 16 66 L24 66 Q30 66 30 60 L30 16 L28 14 L28 6 Z" fill="#e2ecd9" stroke="#5d8a3f" stroke-width="1.2"/>
+      <line x1="-5" y1="20" x2="10" y2="30" stroke="#9c6f44" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-5" y1="40" x2="10" y2="50" stroke="#9c6f44" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-5" y1="60" x2="10" y2="65" stroke="#9c6f44" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <text x="130" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#314b20">Penyikatan</text>
+    <text x="130" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#314b20">Mekanis</text>
+    <line x1="40" y1="232" x2="220" y2="232" stroke="#c79919" stroke-width="0.8"/>
+    <text x="130" y="252" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#314b20">Sikat silinder rotasi</text>
+    <text x="130" y="268" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#314b20">Bilas R.O. water</text>
+  </g>
+
+  <!-- Stage 3 - HIGHLIGHT (Critical Control Point) -->
+  <g transform="translate(620,120)">
+    <rect width="260" height="280" rx="14" fill="#fdf8ec" stroke="#c79919" stroke-width="2.5"/>
+    <rect x="0" y="0" width="260" height="44" rx="14" fill="#c79919"/>
+    <text x="20" y="29" font-family="Inter, sans-serif" font-size="11" letter-spacing="2" fill="#314b20">TAHAP 3 · CCP</text>
+    <text x="240" y="29" text-anchor="end" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#314b20">03</text>
+    <!-- Icon: thermometer + steam -->
+    <g transform="translate(95,75)">
+      <rect x="20" y="0" width="8" height="44" rx="3" fill="#9c6f44"/>
+      <circle cx="24" cy="50" r="8" fill="#c79919"/>
+      <rect x="22" y="6" width="4" height="38" rx="1.5" fill="#fff"/>
+      <circle cx="24" cy="50" r="5" fill="#fff"/>
+      <text x="38" y="30" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#314b20">121°</text>
+      <!-- Steam waves -->
+      <path d="M0 20 Q5 14 0 8" stroke="#5d8a3f" stroke-width="1.5" fill="none"/>
+      <path d="M48 20 Q53 14 48 8" stroke="#5d8a3f" stroke-width="1.5" fill="none"/>
+      <path d="M0 40 Q5 34 0 28" stroke="#5d8a3f" stroke-width="1.5" fill="none"/>
+      <path d="M48 40 Q53 34 48 28" stroke="#5d8a3f" stroke-width="1.5" fill="none"/>
+    </g>
+    <text x="130" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#314b20">Sterilisasi Termal</text>
+    <text x="130" y="220" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" letter-spacing="1.5" fill="#c79919">CRITICAL CONTROL POINT</text>
+    <line x1="40" y1="232" x2="220" y2="232" stroke="#c79919" stroke-width="0.8"/>
+    <text x="130" y="252" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#314b20">121°C · 15 psi</text>
+    <text x="130" y="268" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#314b20">≥ 20 menit</text>
+  </g>
+
+  <!-- Stage 4 -->
+  <g transform="translate(900,120)">
+    <rect width="260" height="280" rx="14" fill="#fdf8ec" stroke="#5d8a3f" stroke-width="1.5"/>
+    <rect x="0" y="0" width="260" height="44" rx="14" fill="#5d8a3f"/>
+    <text x="20" y="29" font-family="Inter, sans-serif" font-size="11" letter-spacing="2" fill="#fdf8ec">TAHAP 4</text>
+    <text x="240" y="29" text-anchor="end" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#fdf8ec">04</text>
+    <!-- Icon: eye + UV rays -->
+    <g transform="translate(100,75)">
+      <path d="M0 30 Q30 8 60 30 Q30 52 0 30 Z" stroke="#314b20" stroke-width="2" fill="#fdf8ec"/>
+      <circle cx="30" cy="30" r="9" fill="#314b20"/>
+      <circle cx="33" cy="27" r="3" fill="#fdf8ec"/>
+      <!-- UV rays -->
+      <line x1="68" y1="30" x2="80" y2="30" stroke="#c79919" stroke-width="1.5"/>
+      <line x1="68" y1="20" x2="78" y2="14" stroke="#c79919" stroke-width="1.5"/>
+      <line x1="68" y1="40" x2="78" y2="46" stroke="#c79919" stroke-width="1.5"/>
+    </g>
+    <text x="130" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#314b20">Inspeksi UV-C</text>
+    <text x="130" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#314b20">&amp; Penyimpanan Steril</text>
+    <line x1="40" y1="232" x2="220" y2="232" stroke="#c79919" stroke-width="0.8"/>
+    <text x="130" y="252" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#314b20">Light-box QC</text>
+    <text x="130" y="268" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#314b20">Siap refill</text>
+  </g>
+
+  <!-- Bottom parameters band -->
+  <g transform="translate(60,440)">
+    <rect width="1080" height="120" rx="14" fill="#314b20"/>
+    <text x="540" y="35" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" letter-spacing="2.5" fill="#c79919">PARAMETER MUTLAK · TIDAK BISA DIKOMPROMIKAN</text>
+
+    <g transform="translate(80,55)">
+      <text x="0" y="35" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#c79919">121°C</text>
+      <text x="0" y="55" font-family="Inter, sans-serif" font-size="10" letter-spacing="1.5" fill="#fdf8ec">SUHU KONSTAN</text>
+    </g>
+    <g transform="translate(380,55)">
+      <text x="0" y="35" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#c79919">15 psi</text>
+      <text x="0" y="55" font-family="Inter, sans-serif" font-size="10" letter-spacing="1.5" fill="#fdf8ec">TEKANAN UAP</text>
+    </g>
+    <g transform="translate(680,55)">
+      <text x="0" y="35" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#c79919">≥ 20 m</text>
+      <text x="0" y="55" font-family="Inter, sans-serif" font-size="10" letter-spacing="1.5" fill="#fdf8ec">DURASI STERILISASI</text>
+    </g>
+    <g transform="translate(940,55)">
+      <text x="0" y="35" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#c79919">100%</text>
+      <text x="0" y="55" font-family="Inter, sans-serif" font-size="10" letter-spacing="1.5" fill="#fdf8ec">QC PASS RATE</text>
+    </g>
+  </g>
+</svg>

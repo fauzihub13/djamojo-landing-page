@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none" role="img" aria-label="Botol Kunyit Asem Djamojo">
+  <defs>
+    <linearGradient id="bg-ka" x1="0" y1="0" x2="400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdf8ec"/>
+      <stop offset="1" stop-color="#f3e8c3"/>
+    </linearGradient>
+    <linearGradient id="ka-isi" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c14b"/>
+      <stop offset="0.5" stop-color="#e3a019"/>
+      <stop offset="1" stop-color="#a87a0c"/>
+    </linearGradient>
+    <linearGradient id="ka-botol" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5fbf1" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#cce0b8" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="ka-tutup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5d8a3f"/>
+      <stop offset="1" stop-color="#314b20"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg-ka)"/>
+  <!-- Decorative kunyit root -->
+  <g opacity="0.15">
+    <ellipse cx="80" cy="430" rx="60" ry="12" fill="#c79919"/>
+    <path d="M70 410 Q72 380 90 360" stroke="#9c7711" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M85 400 Q90 370 110 350" stroke="#9c7711" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Shadow -->
+  <ellipse cx="200" cy="450" rx="80" ry="10" fill="#314b20" opacity="0.18"/>
+  <!-- Bottle -->
+  <g>
+    <!-- Tutup -->
+    <rect x="160" y="60" width="80" height="40" rx="8" fill="url(#ka-tutup)"/>
+    <rect x="160" y="90" width="80" height="8" fill="#314b20" opacity="0.4"/>
+    <!-- Leher -->
+    <path d="M168 100 L168 145 Q168 152 174 156 L226 156 Q232 152 232 145 L232 100 Z" fill="url(#ka-botol)" stroke="#5d8a3f" stroke-width="1.2"/>
+    <!-- Body -->
+    <path d="M158 156 Q132 185 122 235 L122 425 Q122 445 142 445 L258 445 Q278 445 278 425 L278 235 Q268 185 242 156 Z" fill="url(#ka-botol)" stroke="#5d8a3f" stroke-width="1.5"/>
+    <!-- Highlight glass -->
+    <path d="M138 220 Q132 290 134 380 Q134 410 142 430" stroke="#fff" stroke-width="3" opacity="0.7" fill="none" stroke-linecap="round"/>
+    <path d="M148 250 Q144 320 146 400" stroke="#fff" stroke-width="1.5" opacity="0.4" fill="none" stroke-linecap="round"/>
+    <!-- Jamu -->
+    <path d="M126 290 L126 425 Q126 443 144 443 L256 443 Q274 443 274 425 L274 290 Z" fill="url(#ka-isi)"/>
+    <ellipse cx="200" cy="290" rx="74" ry="7" fill="#e3a019"/>
+    <ellipse cx="200" cy="290" rx="74" ry="3" fill="#fdf8ec" opacity="0.4"/>
+    <!-- Floating bubbles -->
+    <circle cx="180" cy="320" r="3" fill="#fdf8ec" opacity="0.4"/>
+    <circle cx="220" cy="350" r="2" fill="#fdf8ec" opacity="0.4"/>
+    <circle cx="190" cy="380" r="2.5" fill="#fdf8ec" opacity="0.4"/>
+    <!-- Label -->
+    <rect x="142" y="335" width="116" height="90" rx="4" fill="#fdf8ec" stroke="#9c6f44" stroke-width="1.2"/>
+    <!-- Top label band -->
+    <rect x="142" y="335" width="116" height="22" rx="4" fill="#5d8a3f"/>
+    <rect x="142" y="350" width="116" height="7" fill="#5d8a3f"/>
+    <text x="200" y="351" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="700" letter-spacing="2" fill="#fdf8ec">DJAMOJO</text>
+    <!-- Product name -->
+    <text x="200" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#314b20">Kunyit Asem</text>
+    <text x="200" y="395" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" letter-spacing="1.5" fill="#9c6f44">JAMU KLASIK</text>
+    <!-- Decoration line -->
+    <line x1="160" y1="403" x2="240" y2="403" stroke="#c79919" stroke-width="0.8"/>
+    <text x="200" y="416" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#314b20">250ml · Bandung</text>
+    <!-- Leaf icon -->
+    <path d="M200 425 Q196 422 195 425 Q196 429 200 428 Q204 429 205 425 Q204 422 200 425 Z" fill="#5d8a3f"/>
+  </g>
+</svg>

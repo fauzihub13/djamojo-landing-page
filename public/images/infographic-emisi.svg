@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" fill="none" role="img" aria-label="Perbandingan emisi: botol sekali pakai vs botol kaca sirkular Djamojo">
+  <defs>
+    <linearGradient id="bgEm" x1="0" y1="0" x2="0" y2="700" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#faf6f1"/>
+      <stop offset="1" stop-color="#fdf8ec"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bgEm)"/>
+
+  <!-- Title -->
+  <text x="600" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#314b20">Botol Kaca Sirkular vs. Sekali Pakai</text>
+  <text x="600" y="82" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" letter-spacing="2.5" fill="#9c6f44">SUMBER: GHEEWALA, 2023 · LIFE CYCLE ASSESSMENT</text>
+
+  <!-- Y axis label -->
+  <text x="50" y="370" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" letter-spacing="2" fill="#9c6f44" transform="rotate(-90 50 370)">EMISI GAS RUMAH KACA (RELATIF)</text>
+
+  <!-- Baseline (grid) -->
+  <line x1="120" y1="600" x2="1140" y2="600" stroke="#9c6f44" stroke-width="1.2"/>
+
+  <!-- BAR 1: Botol Plastik Sekali Pakai (100%) -->
+  <g transform="translate(220,180)">
+    <rect width="200" height="420" fill="#e8c9b8" stroke="#9c6f44" stroke-width="1"/>
+    <text x="100" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#314b20">Botol Plastik</text>
+    <text x="100" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#314b20">Sekali Pakai</text>
+    <text x="100" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-weight="700" fill="#9c6f44">100%</text>
+    <text x="100" y="248" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#9c6f44">EMISI BASELINE</text>
+    <text x="100" y="450" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" letter-spacing="1.5" fill="#314b20">Rata-rata industri</text>
+  </g>
+
+  <!-- BAR 2: Botol Kaca Baru (Recycle) -->
+  <g transform="translate(500,330)">
+    <rect width="200" height="270" fill="#d4e4d4" stroke="#5d8a3f" stroke-width="1"/>
+    <text x="100" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#314b20">Botol Kaca Baru</text>
+    <text x="100" y="80" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#314b20">(Produksi + Recycle)</text>
+    <text x="100" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#5d8a3f">~70%</text>
+    <text x="100" y="188" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#5d8a3f">−30% vs plastik</text>
+    <text x="100" y="298" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" letter-spacing="1.5" fill="#314b20">Daur ulang konvensional</text>
+  </g>
+
+  <!-- BAR 3: Botol Djamojo (Sirkular) - HIGHLIGHT -->
+  <g transform="translate(780,560)">
+    <rect width="200" height="40" fill="#c79919" stroke="#9c7711" stroke-width="1.5"/>
+    <text x="100" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#fdf8ec">≤ 10%</text>
+  </g>
+  <g transform="translate(780,540)">
+    <text x="100" y="0" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#314b20">Botol Djamojo</text>
+    <text x="100" y="16" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#314b20">Sirkular · 20× siklus</text>
+  </g>
+
+  <!-- Highlight: −90% callout -->
+  <g transform="translate(820,470)">
+    <rect width="120" height="50" rx="25" fill="#314b20"/>
+    <text x="60" y="32" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#c79919">−90%</text>
+  </g>
+  <line x1="880" y1="520" x2="880" y2="560" stroke="#314b20" stroke-width="2"/>
+
+  <!-- Comparison arrow -->
+  <g>
+    <line x1="430" y1="280" x2="800" y2="580" stroke="#c79919" stroke-width="2" stroke-dasharray="4 3"/>
+    <polygon points="800,580 790,572 794,584" fill="#c79919"/>
+  </g>
+
+  <!-- Footer facts -->
+  <g transform="translate(60,640)">
+    <rect width="1080" height="50" rx="10" fill="#e2ecd9"/>
+    <text x="540" y="32" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#314b20">"20 kali siklus pakai, emisi dipotong lebih dari 90% dibanding produksi botol kaca baru."</text>
+  </g>
+</svg>

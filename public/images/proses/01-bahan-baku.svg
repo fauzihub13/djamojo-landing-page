@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none" role="img" aria-label="Pemilihan bahan baku: kunyit, jahe, kencur, temulawak">
+  <defs>
+    <linearGradient id="bg-bb1" x1="0" y1="0" x2="500" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#faf6f1"/>
+      <stop offset="1" stop-color="#e2ecd9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="400" fill="url(#bg-bb1)"/>
+  <!-- Wooden table -->
+  <ellipse cx="250" cy="370" rx="220" ry="20" fill="#9c6f44" opacity="0.3"/>
+  <line x1="40" y1="370" x2="460" y2="370" stroke="#7a5736" stroke-width="2"/>
+
+  <!-- Kunyit (kiri) -->
+  <g transform="translate(60,140)">
+    <path d="M20 80 Q25 50 40 30 Q60 10 90 5 Q100 30 90 60 Q75 90 50 95 Q25 100 20 80 Z" fill="#e3a019" stroke="#9c7711" stroke-width="2"/>
+    <path d="M40 30 Q55 25 75 25" stroke="#9c7711" stroke-width="1.2" fill="none" opacity="0.5"/>
+    <path d="M50 50 Q70 45 85 50" stroke="#9c7711" stroke-width="1.2" fill="none" opacity="0.5"/>
+    <path d="M55 70 Q75 65 90 70" stroke="#9c7711" stroke-width="1.2" fill="none" opacity="0.5"/>
+    <text x="55" y="135" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="700" fill="#314b20">Kunyit</text>
+  </g>
+
+  <!-- Jahe Merah (kiri-tengah) -->
+  <g transform="translate(150,150)">
+    <path d="M15 70 Q18 40 35 20 Q50 5 70 8 Q80 25 75 50 Q60 75 40 80 Q20 80 15 70 Z" fill="#b85030" stroke="#7a2f1a" stroke-width="2"/>
+    <path d="M30 25 Q45 20 60 22" stroke="#7a2f1a" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M40 45 Q55 40 70 45" stroke="#7a2f1a" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M50 60 Q65 58 75 62" stroke="#7a2f1a" stroke-width="1" fill="none" opacity="0.5"/>
+    <text x="45" y="125" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="700" fill="#314b20">Jahe Merah</text>
+  </g>
+
+  <!-- Kencur (kanan-tengah) -->
+  <g transform="translate(240,160)">
+    <path d="M10 60 Q12 35 25 18 Q40 5 55 8 Q62 22 58 42 Q48 65 32 68 Q15 68 10 60 Z" fill="#e8d4a8" stroke="#9c6f44" stroke-width="2"/>
+    <path d="M22 25 Q35 20 48 22" stroke="#9c6f44" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M28 40 Q42 35 55 40" stroke="#9c6f44" stroke-width="1" fill="none" opacity="0.5"/>
+    <text x="35" y="115" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="700" fill="#314b20">Kencur</text>
+  </g>
+
+  <!-- Temulawak (kanan) -->
+  <g transform="translate(330,140)">
+    <path d="M20 90 Q22 60 38 35 Q60 15 90 18 Q105 40 100 70 Q80 100 55 105 Q25 105 20 90 Z" fill="#d9a838" stroke="#9c6f44" stroke-width="2"/>
+    <path d="M40 40 Q60 35 80 38" stroke="#9c6f44" stroke-width="1.2" fill="none" opacity="0.5"/>
+    <path d="M50 60 Q70 55 90 60" stroke="#9c6f44" stroke-width="1.2" fill="none" opacity="0.5"/>
+    <path d="M55 80 Q75 75 95 80" stroke="#9c6f44" stroke-width="1.2" fill="none" opacity="0.5"/>
+    <text x="60" y="145" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="700" fill="#314b20">Temulawak</text>
+  </g>
+
+  <!-- Hand (memilih) -->
+  <g transform="translate(220,40)">
+    <ellipse cx="30" cy="20" rx="22" ry="14" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.5"/>
+    <ellipse cx="20" cy="14" rx="6" ry="4" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.2"/>
+    <ellipse cx="32" cy="10" rx="6" ry="4" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.2"/>
+    <ellipse cx="44" cy="14" rx="6" ry="4" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.2"/>
+  </g>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#314b20">Pemilihan Bahan Baku</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" letter-spacing="2" fill="#9c6f44">LANGKAH 1 · DARI PETANI LOKAL BANDUNG</text>
+</svg>

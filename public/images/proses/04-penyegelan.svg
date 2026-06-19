@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none" role="img" aria-label="Penyegelan tutup botol dan pelabelan">
+  <defs>
+    <linearGradient id="bg-bb4" x1="0" y1="0" x2="500" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#faf6f1"/>
+      <stop offset="1" stop-color="#f3e8c3"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="400" fill="url(#bg-bb4)"/>
+
+  <!-- Meja kerja -->
+  <rect x="40" y="340" width="420" height="20" fill="#9c6f44" stroke="#5a3d1c" stroke-width="1.5"/>
+
+  <!-- Botol selesai (tengah) -->
+  <g transform="translate(200,140)">
+    <!-- Tutup -->
+    <rect x="22" y="0" width="36" height="18" rx="3" fill="#5d8a3f" stroke="#314b20" stroke-width="1.2"/>
+    <rect x="22" y="14" width="36" height="4" fill="#314b20" opacity="0.3"/>
+    <!-- Leher -->
+    <path d="M26 18 L26 36 L20 42 L20 180 Q20 188 28 188 L52 188 Q60 188 60 180 L60 42 L54 36 L54 18 Z" fill="#f5fbf1" stroke="#5d8a3f" stroke-width="1.5"/>
+    <!-- Highlight -->
+    <path d="M27 50 Q25 90 26 160" stroke="#fff" stroke-width="2" opacity="0.5" fill="none"/>
+    <!-- Isi -->
+    <path d="M22 100 L22 180 Q22 186 28 186 L52 186 Q58 186 58 180 L58 100 Z" fill="#a87a0c"/>
+    <ellipse cx="40" cy="100" rx="18" ry="2" fill="#c79919"/>
+    <!-- Label -->
+    <rect x="22" y="125" width="36" height="50" rx="2" fill="#fdf8ec" stroke="#9c6f44" stroke-width="1"/>
+    <rect x="22" y="125" width="36" height="8" rx="2" fill="#5d8a3f"/>
+    <text x="40" y="131" text-anchor="middle" font-family="Georgia, serif" font-size="4" font-weight="700" fill="#fdf8ec">DJAMOJO</text>
+    <line x1="26" y1="138" x2="54" y2="138" stroke="#c79919" stroke-width="0.4"/>
+    <text x="40" y="148" text-anchor="middle" font-family="Georgia, serif" font-size="5" font-weight="700" fill="#314b20">Kunyit Asem</text>
+    <text x="40" y="155" text-anchor="middle" font-family="Inter, sans-serif" font-size="3" fill="#9c6f44">250ml</text>
+    <text x="40" y="168" text-anchor="middle" font-family="Inter, sans-serif" font-size="3" fill="#9c6f44">Bandung</text>
+  </g>
+
+  <!-- Tangan kiri - memegang segel -->
+  <g transform="translate(80,180)">
+    <ellipse cx="30" cy="20" rx="20" ry="12" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.5"/>
+    <ellipse cx="22" cy="12" rx="5" ry="4" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.2"/>
+    <ellipse cx="32" cy="9" rx="5" ry="4" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.2"/>
+    <ellipse cx="42" cy="13" rx="5" ry="4" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.2"/>
+    <!-- Segel kertas -->
+    <rect x="20" y="-15" width="40" height="12" fill="#e8d4a8" stroke="#9c6f44" stroke-width="1"/>
+    <text x="40" y="-7" text-anchor="middle" font-family="Inter, sans-serif" font-size="6" font-weight="700" fill="#5a3d1c">SEGEL</text>
+  </g>
+
+  <!-- Tangan kanan - memegang label -->
+  <g transform="translate(340,180)">
+    <ellipse cx="30" cy="20" rx="20" ry="12" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.5"/>
+    <ellipse cx="22" cy="12" rx="5" ry="4" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.2"/>
+    <ellipse cx="32" cy="9" rx="5" ry="4" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.2"/>
+    <ellipse cx="42" cy="13" rx="5" ry="4" fill="#f0d0a8" stroke="#9c6f44" stroke-width="1.2"/>
+    <!-- Label yang akan dipasang -->
+    <g transform="translate(10,-30)">
+      <rect width="40" height="50" rx="2" fill="#fdf8ec" stroke="#9c6f44" stroke-width="1"/>
+      <rect width="40" height="9" rx="2" fill="#5d8a3f"/>
+      <text x="20" y="6" text-anchor="middle" font-family="Georgia, serif" font-size="4" font-weight="700" fill="#fdf8ec">DJAMOJO</text>
+      <line x1="5" y1="14" x2="35" y2="14" stroke="#c79919" stroke-width="0.4"/>
+      <text x="20" y="24" text-anchor="middle" font-family="Georgia, serif" font-size="5" font-weight="700" fill="#314b20">Kunyit Asem</text>
+      <text x="20" y="32" text-anchor="middle" font-family="Inter, sans-serif" font-size="3" fill="#9c6f44">JAMU KLASIK</text>
+      <line x1="10" y1="36" x2="30" y2="36" stroke="#c79919" stroke-width="0.4"/>
+      <text x="20" y="44" text-anchor="middle" font-family="Inter, sans-serif" font-size="3" fill="#314b20">250ml · Bandung</text>
+    </g>
+  </g>
+
+  <!-- Stiker FRAGILE di bawah -->
+  <g transform="translate(60,310)">
+    <rect width="80" height="22" fill="#fdf8ec" stroke="#c79919" stroke-width="1" stroke-dasharray="2 1"/>
+    <text x="40" y="14" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" font-weight="700" letter-spacing="1" fill="#c79919">FRAGILE · GLASSWARE</text>
+  </g>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#314b20">Penyegelan &amp; Pelabelan</text>
+  <text x="250" y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" letter-spacing="2" fill="#9c6f44">LANGKAH 4 · KERTAS ECO · SEGEL BIODEGRADABLE</text>
+</svg>

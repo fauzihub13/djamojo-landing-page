@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none" role="img" aria-label="Botol Temulawak Djamojo Premium">
+  <defs>
+    <linearGradient id="bg-tm" x1="0" y1="0" x2="400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f1d8"/>
+      <stop offset="1" stop-color="#e0d8a0"/>
+    </linearGradient>
+    <linearGradient id="tm-isi" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9a838"/>
+      <stop offset="0.5" stop-color="#a87a0c"/>
+      <stop offset="1" stop-color="#6b4a05"/>
+    </linearGradient>
+    <linearGradient id="tm-botol" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5fbf1" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#cce0b8" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="tm-tutup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9c6f44"/>
+      <stop offset="1" stop-color="#5a3d1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg-tm)"/>
+  <!-- Premium badge -->
+  <g transform="translate(40,40)">
+    <circle cx="30" cy="30" r="28" fill="#c79919" stroke="#9c6f44" stroke-width="1.5"/>
+    <text x="30" y="26" text-anchor="middle" font-family="Georgia, serif" font-size="9" font-weight="700" fill="#fdf8ec">PREMIUM</text>
+    <text x="30" y="38" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#fdf8ec">SERIES</text>
+  </g>
+  <!-- Shadow -->
+  <ellipse cx="200" cy="450" rx="80" ry="10" fill="#314b20" opacity="0.18"/>
+  <!-- Bottle (sedikit lebih elegan - tutup emas) -->
+  <g>
+    <rect x="160" y="60" width="80" height="42" rx="8" fill="url(#tm-tutup)"/>
+    <rect x="160" y="92" width="80" height="8" fill="#314b20" opacity="0.4"/>
+    <!-- Gold ring -->
+    <rect x="156" y="98" width="88" height="4" fill="#c79919"/>
+    <path d="M168 104 L168 145 Q168 152 174 156 L226 156 Q232 152 232 145 L232 104 Z" fill="url(#tm-botol)" stroke="#5d8a3f" stroke-width="1.2"/>
+    <path d="M158 156 Q132 185 122 235 L122 425 Q122 445 142 445 L258 445 Q278 445 278 425 L278 235 Q268 185 242 156 Z" fill="url(#tm-botol)" stroke="#5d8a3f" stroke-width="1.5"/>
+    <path d="M138 220 Q132 290 134 380 Q134 410 142 430" stroke="#fff" stroke-width="3" opacity="0.7" fill="none" stroke-linecap="round"/>
+    <path d="M148 250 Q144 320 146 400" stroke="#fff" stroke-width="1.5" opacity="0.4" fill="none" stroke-linecap="round"/>
+    <path d="M126 290 L126 425 Q126 443 144 443 L256 443 Q274 443 274 425 L274 290 Z" fill="url(#tm-isi)"/>
+    <ellipse cx="200" cy="290" rx="74" ry="7" fill="#a87a0c"/>
+    <ellipse cx="200" cy="290" rx="74" ry="3" fill="#fdf8ec" opacity="0.4"/>
+    <circle cx="180" cy="350" r="2" fill="#fdf8ec" opacity="0.4"/>
+    <circle cx="220" cy="400" r="2" fill="#fdf8ec" opacity="0.4"/>
+    <!-- Label Premium -->
+    <rect x="140" y="335" width="120" height="90" rx="4" fill="#fdf8ec" stroke="#c79919" stroke-width="1.5"/>
+    <rect x="140" y="335" width="120" height="24" rx="4" fill="#314b20"/>
+    <rect x="140" y="350" width="120" height="9" fill="#314b20"/>
+    <text x="200" y="352" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="700" letter-spacing="2.5" fill="#c79919">DJAMOJO</text>
+    <text x="200" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#314b20">Temulawak</text>
+    <text x="200" y="395" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" letter-spacing="1.5" fill="#9c6f44">PREMIUM HERITAGE</text>
+    <line x1="158" y1="403" x2="242" y2="403" stroke="#c79919" stroke-width="0.8"/>
+    <text x="200" y="416" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#314b20">250ml · Bandung</text>
+    <path d="M200 425 Q196 422 195 425 Q196 429 200 428 Q204 429 205 425 Q204 422 200 425 Z" fill="#5d8a3f"/>
+  </g>
+</svg>

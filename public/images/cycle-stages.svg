@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" fill="none" role="img" aria-label="Ilustrasi daur ulang botol kaca: 4 tahap sanitasi dalam lingkaran">
+  <defs>
+    <linearGradient id="bgCycle" x1="0" y1="0" x2="480" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#faf6f1"/>
+      <stop offset="1" stop-color="#e2ecd9"/>
+    </linearGradient>
+    <linearGradient id="cycleRing" x1="0" y1="0" x2="480" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5d8a3f"/>
+      <stop offset="0.5" stop-color="#c79919"/>
+      <stop offset="1" stop-color="#5d8a3f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="600" fill="url(#bgCycle)"/>
+
+  <!-- Outer ring (circular economy) -->
+  <circle cx="240" cy="300" r="200" stroke="url(#cycleRing)" stroke-width="2.5" fill="none" stroke-dasharray="6 4" opacity="0.7"/>
+
+  <!-- Arrow tips on ring -->
+  <g fill="#5d8a3f">
+    <polygon points="440,300 430,294 430,306" />
+    <polygon points="40,300 50,294 50,306" />
+  </g>
+
+  <!-- Center label -->
+  <circle cx="240" cy="300" r="70" fill="#fdf8ec" stroke="#314b20" stroke-width="1.5"/>
+  <text x="240" y="288" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#314b20">Siklus</text>
+  <text x="240" y="312" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#314b20">Sirkular</text>
+  <text x="240" y="332" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" letter-spacing="2" fill="#9c6f44">20× LIFESPAN</text>
+
+  <!-- 4 Stages around the ring -->
+  <!-- TOP: Sortir (12 o'clock) -->
+  <g transform="translate(210,55)">
+    <circle cx="30" cy="30" r="30" fill="#fdf8ec" stroke="#5d8a3f" stroke-width="2"/>
+    <!-- Magnifier icon -->
+    <circle cx="26" cy="26" r="9" stroke="#314b20" stroke-width="2" fill="none"/>
+    <line x1="33" y1="33" x2="40" y2="40" stroke="#314b20" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="30" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="600" fill="#314b20">1. Sortir</text>
+    <text x="30" y="92" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#9c6f44">Inspeksi 100%</text>
+  </g>
+
+  <!-- RIGHT: Sanitasi (3 o'clock) -->
+  <g transform="translate(370,270)">
+    <circle cx="30" cy="30" r="30" fill="#fdf8ec" stroke="#c79919" stroke-width="2"/>
+    <!-- Sterilisasi: uap waves + thermometer -->
+    <rect x="22" y="22" width="4" height="20" rx="2" fill="#314b20"/>
+    <circle cx="24" cy="44" r="4" fill="#9c6f44"/>
+    <path d="M30 18 Q34 22 30 26 Q34 30 30 34" stroke="#5d8a3f" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M36 18 Q40 22 36 26 Q40 30 36 34" stroke="#5d8a3f" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <text x="30" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="600" fill="#314b20">2. Sanitasi</text>
+    <text x="30" y="92" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#9c6f44">121°C / 20 m</text>
+  </g>
+
+  <!-- BOTTOM: QC (6 o'clock) -->
+  <g transform="translate(210,485)">
+    <circle cx="30" cy="30" r="30" fill="#fdf8ec" stroke="#5d8a3f" stroke-width="2"/>
+    <!-- Eye icon -->
+    <path d="M18 30 Q30 18 42 30 Q30 42 18 30 Z" stroke="#314b20" stroke-width="2" fill="none"/>
+    <circle cx="30" cy="30" r="4" fill="#314b20"/>
+    <text x="30" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="600" fill="#314b20">3. QC</text>
+    <text x="30" y="92" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#9c6f44">Inspeksi UV-C</text>
+  </g>
+
+  <!-- LEFT: Refill (9 o'clock) -->
+  <g transform="translate(50,270)">
+    <circle cx="30" cy="30" r="30" fill="#fdf8ec" stroke="#c79919" stroke-width="2"/>
+    <!-- Refill: bottle outline with arrow -->
+    <rect x="24" y="16" width="12" height="4" rx="1" fill="#314b20"/>
+    <path d="M26 20 L26 40 Q26 44 30 44 Q34 44 34 40 L34 20 Z" stroke="#314b20" stroke-width="1.5" fill="#fdf8ec"/>
+    <path d="M30 24 L30 34 M27 31 L30 34 L33 31" stroke="#5d8a3f" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="600" fill="#314b20">4. Refill</text>
+    <text x="30" y="92" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="#9c6f44">Varian Baru</text>
+  </g>
+
+  <!-- Bottom tagline -->
+  <text x="240" y="580" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#9c6f44">#KembaliBerseri</text>
+</svg>

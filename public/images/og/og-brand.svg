@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Open Graph: Cerita Djamojo">
+  <defs>
+    <linearGradient id="og-bg-brand" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3d5e26"/>
+      <stop offset="1" stop-color="#5d8a3f"/>
+    </linearGradient>
+    <radialGradient id="og-glow-brand" cx="0.7" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#c79919" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#c79919" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og-bg-brand)"/>
+  <ellipse cx="900" cy="315" rx="500" ry="400" fill="url(#og-glow-brand)"/>
+
+  <!-- Decorative leaves -->
+  <g opacity="0.15" fill="#fdf8ec">
+    <path d="M-30 100 Q60 30 150 80 Q120 150 30 170 Z"/>
+    <path d="M1100 530 Q1170 460 1230 510 Q1200 580 1130 580 Z"/>
+  </g>
+
+  <text x="60" y="100" font-family="Inter, sans-serif" font-size="14" letter-spacing="4" fill="#c79919">CERITA KAMI</text>
+  <text x="60" y="210" font-family="Georgia, serif" font-size="78" font-weight="700" fill="#fdf8ec">Dari Dapur</text>
+  <text x="60" y="298" font-family="Georgia, serif" font-size="78" font-weight="700" fill="#c79919">Rumahan,</text>
+  <text x="60" y="386" font-family="Georgia, serif" font-size="78" font-weight="700" fill="#fdf8ec">untuk Bumi Lestari.</text>
+  <line x1="60" y1="430" x2="180" y2="430" stroke="#c79919" stroke-width="2"/>
+  <text x="60" y="478" font-family="Inter, sans-serif" font-size="20" fill="#e2ecd9">2012 — 2026 · Bandung · Homemade · Sirkular</text>
+
+  <g transform="translate(60,540)">
+    <rect width="220" height="40" rx="20" fill="#c79919"/>
+    <text x="110" y="26" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" letter-spacing="1.5" fill="#314b20">#TukarBotolTukarKebaikan</text>
+  </g>
+
+  <!-- Brand mark right -->
+  <g transform="translate(960,265)">
+    <circle cx="80" cy="80" r="80" fill="#c79919"/>
+    <path d="M80 30c-6 0-10 3-13 7l-10 14c-6 8-15 14-25 15l-17 2c-9 1-15 9-15 17v3c0 9 6 16 15 17l17 2c10 1 19 7 25 15l10 14c3 4 7 7 13 7s10-3 13-7l10-14c6-8 15-14 25-15l17-2c9-1 15-9 15-17v-3c0-9-6-16-15-17l-17-2c-10-1-19-7-25-15l-10-14c-3-4-7-7-13-7Z" fill="#314b20"/>
+    <path d="M80 175v30m0 0-12-8m12 8 12-8" stroke="#314b20" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="1140" y="600" text-anchor="end" font-family="Inter, sans-serif" font-size="13" letter-spacing="2" fill="#c79919">DJAMOJO.ID/BRAND</text>
+</svg>

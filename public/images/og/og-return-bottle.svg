@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Open Graph: Program Return Bottle Djamojo">
+  <defs>
+    <linearGradient id="og-bg-rb" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#314b20"/>
+      <stop offset="0.5" stop-color="#3d5e26"/>
+      <stop offset="1" stop-color="#5d8a3f"/>
+    </linearGradient>
+    <linearGradient id="og-jamu-rb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3b73b"/>
+      <stop offset="1" stop-color="#9c7711"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og-bg-rb)"/>
+
+  <!-- Circular ring -->
+  <g opacity="0.2" stroke="#fdf8ec" fill="none">
+    <circle cx="940" cy="315" r="200" stroke-width="1" stroke-dasharray="4 6"/>
+    <circle cx="940" cy="315" r="150" stroke-width="1" stroke-dasharray="4 6"/>
+    <circle cx="940" cy="315" r="100" stroke-width="1" stroke-dasharray="4 6"/>
+  </g>
+
+  <text x="60" y="100" font-family="Inter, sans-serif" font-size="14" letter-spacing="4" fill="#c79919">PROGRAM RETURN BOTTLE</text>
+  <text x="60" y="200" font-family="Georgia, serif" font-size="70" font-weight="700" fill="#fdf8ec">Selesai Minum?</text>
+  <text x="60" y="278" font-family="Georgia, serif" font-size="70" font-weight="700" fill="#c79919">Kembalikan</text>
+  <text x="60" y="356" font-family="Georgia, serif" font-size="70" font-weight="700" fill="#fdf8ec">Botolnya.</text>
+  <line x1="60" y1="396" x2="180" y2="396" stroke="#c79919" stroke-width="2"/>
+  <text x="60" y="436" font-family="Inter, sans-serif" font-size="18" fill="#e2ecd9">−90% emisi · 20× siklus · Food-grade sterilisasi</text>
+
+  <!-- Stats row -->
+  <g transform="translate(60,470)">
+    <g>
+      <text font-family="Georgia, serif" font-size="32" font-weight="700" fill="#c79919">−90%</text>
+      <text y="22" font-family="Inter, sans-serif" font-size="10" letter-spacing="1.5" fill="#fdf8ec">EMISI</text>
+    </g>
+    <g transform="translate(150,0)">
+      <text font-family="Georgia, serif" font-size="32" font-weight="700" fill="#c79919">20×</text>
+      <text y="22" font-family="Inter, sans-serif" font-size="10" letter-spacing="1.5" fill="#fdf8ec">SIKLUS</text>
+    </g>
+    <g transform="translate(280,0)">
+      <text font-family="Georgia, serif" font-size="32" font-weight="700" fill="#c79919">121°C</text>
+      <text y="22" font-family="Inter, sans-serif" font-size="10" letter-spacing="1.5" fill="#fdf8ec">STERIL</text>
+    </g>
+  </g>
+
+  <!-- Center bottle -->
+  <g transform="translate(890,180)">
+    <rect x="40" y="0" width="60" height="32" rx="6" fill="#c79919"/>
+    <path d="M48 32 L48 70 Q48 76 54 80 L86 80 Q92 76 92 70 L92 32 Z" fill="#f5fbf1" stroke="#fdf8ec" stroke-width="1.5" opacity="0.9"/>
+    <path d="M44 80 Q28 100 22 140 L22 250 Q22 264 38 264 L102 264 Q118 264 118 250 L118 140 Q112 100 96 80 Z" fill="#f5fbf1" stroke="#fdf8ec" stroke-width="1.5" opacity="0.9"/>
+    <path d="M24 180 L24 250 Q24 262 38 262 L102 262 Q116 262 116 250 L116 180 Z" fill="url(#og-jamu-rb)"/>
+    <ellipse cx="70" cy="180" rx="46" ry="5" fill="#e3b73b"/>
+  </g>
+
+  <text x="1140" y="600" text-anchor="end" font-family="Inter, sans-serif" font-size="13" letter-spacing="2" fill="#c79919">DJAMOJO.ID/RETURN-BOTTLE</text>
+</svg>

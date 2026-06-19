@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none" role="img" aria-label="Open Graph: Produk Djamojo">
+  <defs>
+    <linearGradient id="og-bg-prod" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdf8ec"/>
+      <stop offset="1" stop-color="#e2ecd9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og-bg-prod)"/>
+
+  <text x="60" y="100" font-family="Inter, sans-serif" font-size="14" letter-spacing="4" fill="#9c6f44">KATALOG VARIAN</text>
+  <text x="60" y="200" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#314b20">Enam Rasa,</text>
+  <text x="60" y="278" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#c79919">Satu Komitmen.</text>
+  <line x1="60" y1="318" x2="180" y2="318" stroke="#c79919" stroke-width="2"/>
+  <text x="60" y="358" font-family="Inter, sans-serif" font-size="20" fill="#314b20">250ml · Homemade · Botol kaca reusable</text>
+  <text x="60" y="388" font-family="Inter, sans-serif" font-size="20" fill="#314b20">Klasik · Premium · Edisi Khusus</text>
+
+  <g transform="translate(60,440)">
+    <rect width="180" height="40" rx="20" fill="#314b20"/>
+    <text x="90" y="26" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" letter-spacing="1.5" fill="#fdf8ec">#KembaliBerseri</text>
+  </g>
+
+  <!-- 6 mini bottle cards -->
+  <g transform="translate(720,140)">
+    <rect width="420" height="370" rx="20" fill="#fdf8ec" stroke="#5d8a3f" stroke-width="1.5"/>
+    <g font-family="Georgia, serif" font-size="14" font-weight="700" fill="#314b20" text-anchor="middle">
+      <!-- Row 1 -->
+      <g transform="translate(60,40)">
+        <circle r="38" fill="#e3a019" opacity="0.2"/>
+        <text y="6">🌿</text>
+        <text y="60" font-size="12">Kunyit Asem</text>
+      </g>
+      <g transform="translate(150,40)">
+        <circle r="38" fill="#b8965c" opacity="0.2"/>
+        <text y="6">🌾</text>
+        <text y="60" font-size="12">Beras Kencur</text>
+      </g>
+      <g transform="translate(240,40)">
+        <circle r="38" fill="#b85030" opacity="0.2"/>
+        <text y="6">🫚</text>
+        <text y="60" font-size="12">Jahe Merah</text>
+      </g>
+      <g transform="translate(330,40)">
+        <circle r="38" fill="#a87a0c" opacity="0.2"/>
+        <text y="6">🌱</text>
+        <text y="60" font-size="12">Temulawak</text>
+      </g>
+      <!-- Row 2 -->
+      <g transform="translate(60,160)">
+        <circle r="38" fill="#8b1f1f" opacity="0.2"/>
+        <text y="6">🌺</text>
+        <text y="60" font-size="12">Sirih Merah</text>
+      </g>
+      <g transform="translate(150,160)">
+        <circle r="38" fill="#c79919" opacity="0.2"/>
+        <text y="6">🍯</text>
+        <text y="60" font-size="12">Kencur Madu</text>
+        <text y="76" font-size="9" fill="#9c6f44">LIMITED</text>
+      </g>
+    </g>
+  </g>
+
+  <text x="1140" y="600" text-anchor="end" font-family="Inter, sans-serif" font-size="13" letter-spacing="2" fill="#9c6f44">DJAMOJO.ID/PRODUK</text>
+</svg>

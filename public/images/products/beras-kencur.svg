@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none" role="img" aria-label="Botol Beras Kencur Djamojo">
+  <defs>
+    <linearGradient id="bg-bk" x1="0" y1="0" x2="400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#faf6f1"/>
+      <stop offset="1" stop-color="#e8e0d0"/>
+    </linearGradient>
+    <linearGradient id="bk-isi" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff5e0"/>
+      <stop offset="0.5" stop-color="#e8d4a8"/>
+      <stop offset="1" stop-color="#b8965c"/>
+    </linearGradient>
+    <linearGradient id="bk-botol" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5fbf1" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#cce0b8" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="bk-tutup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5d8a3f"/>
+      <stop offset="1" stop-color="#314b20"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg-bk)"/>
+  <!-- Rice grains decorative -->
+  <g opacity="0.18" fill="#b8965c">
+    <ellipse cx="60" cy="100" rx="4" ry="2" transform="rotate(30 60 100)"/>
+    <ellipse cx="80" cy="120" rx="4" ry="2" transform="rotate(-20 80 120)"/>
+    <ellipse cx="50" cy="140" rx="4" ry="2" transform="rotate(45 50 140)"/>
+    <ellipse cx="350" cy="380" rx="4" ry="2" transform="rotate(-30 350 380)"/>
+    <ellipse cx="370" cy="400" rx="4" ry="2" transform="rotate(15 370 400)"/>
+    <ellipse cx="340" cy="420" rx="4" ry="2" transform="rotate(-45 340 420)"/>
+  </g>
+  <!-- Kencur root decorative -->
+  <g opacity="0.15">
+    <path d="M320 80 Q330 60 350 50" stroke="#9c6f44" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M340 100 Q355 90 365 75" stroke="#9c6f44" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Shadow -->
+  <ellipse cx="200" cy="450" rx="80" ry="10" fill="#314b20" opacity="0.18"/>
+  <!-- Bottle -->
+  <g>
+    <rect x="160" y="60" width="80" height="40" rx="8" fill="url(#bk-tutup)"/>
+    <rect x="160" y="90" width="80" height="8" fill="#314b20" opacity="0.4"/>
+    <path d="M168 100 L168 145 Q168 152 174 156 L226 156 Q232 152 232 145 L232 100 Z" fill="url(#bk-botol)" stroke="#5d8a3f" stroke-width="1.2"/>
+    <path d="M158 156 Q132 185 122 235 L122 425 Q122 445 142 445 L258 445 Q278 445 278 425 L278 235 Q268 185 242 156 Z" fill="url(#bk-botol)" stroke="#5d8a3f" stroke-width="1.5"/>
+    <path d="M138 220 Q132 290 134 380 Q134 410 142 430" stroke="#fff" stroke-width="3" opacity="0.7" fill="none" stroke-linecap="round"/>
+    <path d="M148 250 Q144 320 146 400" stroke="#fff" stroke-width="1.5" opacity="0.4" fill="none" stroke-linecap="round"/>
+    <!-- Isi jamu (putih keruh) -->
+    <path d="M126 290 L126 425 Q126 443 144 443 L256 443 Q274 443 274 425 L274 290 Z" fill="url(#bk-isi)"/>
+    <ellipse cx="200" cy="290" rx="74" ry="7" fill="#e8d4a8"/>
+    <ellipse cx="200" cy="290" rx="74" ry="3" fill="#fdf8ec" opacity="0.5"/>
+    <!-- Particles -->
+    <circle cx="180" cy="350" r="1.5" fill="#b8965c" opacity="0.5"/>
+    <circle cx="215" cy="380" r="2" fill="#b8965c" opacity="0.5"/>
+    <circle cx="195" cy="410" r="1.5" fill="#b8965c" opacity="0.5"/>
+    <!-- Label -->
+    <rect x="142" y="335" width="116" height="90" rx="4" fill="#fdf8ec" stroke="#9c6f44" stroke-width="1.2"/>
+    <rect x="142" y="335" width="116" height="22" rx="4" fill="#5d8a3f"/>
+    <rect x="142" y="350" width="116" height="7" fill="#5d8a3f"/>
+    <text x="200" y="351" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="700" letter-spacing="2" fill="#fdf8ec">DJAMOJO</text>
+    <text x="200" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#314b20">Beras Kencur</text>
+    <text x="200" y="395" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" letter-spacing="1.5" fill="#9c6f44">STAMINA HANGAT</text>
+    <line x1="160" y1="403" x2="240" y2="403" stroke="#c79919" stroke-width="0.8"/>
+    <text x="200" y="416" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="#314b20">250ml · Bandung</text>
+    <path d="M200 425 Q196 422 195 425 Q196 429 200 428 Q204 429 205 425 Q204 422 200 425 Z" fill="#5d8a3f"/>
+  </g>
+</svg>

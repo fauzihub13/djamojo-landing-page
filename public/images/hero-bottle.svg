@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" fill="none" role="img" aria-label="Ilustrasi botol kaca Djamojo dengan siklus sirkular">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e2ecd9"/>
+      <stop offset="1" stop-color="#fdf8ec"/>
+    </linearGradient>
+    <linearGradient id="botol" x1="180" y1="120" x2="300" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5fbf1" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#cce0b8" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#7da565" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="jamu" x1="180" y1="320" x2="300" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e3b73b"/>
+      <stop offset="1" stop-color="#9c7711"/>
+    </linearGradient>
+    <linearGradient id="tutup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5d8a3f"/>
+      <stop offset="1" stop-color="#314b20"/>
+    </linearGradient>
+    <radialGradient id="circleGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fdf8ec" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fdf8ec" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="600" fill="url(#bg)"/>
+
+  <!-- Decorative circles (circular economy) -->
+  <g opacity="0.18" stroke="#314b20" stroke-width="1.2" fill="none">
+    <circle cx="240" cy="320" r="200" stroke-dasharray="2 6"/>
+    <circle cx="240" cy="320" r="155" stroke-dasharray="2 6"/>
+  </g>
+
+  <!-- Leaves around the bottle (sustainability) -->
+  <g transform="translate(60,90)">
+    <path d="M0 30 Q20 0 50 10 Q40 40 10 50 Z" fill="#5d8a3f" opacity="0.85"/>
+    <path d="M10 30 Q25 15 40 20" stroke="#314b20" stroke-width="1" fill="none" opacity="0.6"/>
+  </g>
+  <g transform="translate(370,80)">
+    <path d="M0 10 Q30 0 50 30 Q20 50 0 30 Z" fill="#4a7230" opacity="0.85"/>
+    <path d="M10 20 Q25 30 40 35" stroke="#314b20" stroke-width="1" fill="none" opacity="0.6"/>
+  </g>
+  <g transform="translate(80,420)">
+    <path d="M0 20 Q15 0 40 10 Q30 40 5 45 Z" fill="#3d5e26" opacity="0.8"/>
+  </g>
+  <g transform="translate(370,420)">
+    <path d="M0 10 Q25 0 50 20 Q30 45 5 45 Z" fill="#5d8a3f" opacity="0.85"/>
+  </g>
+
+  <!-- Glow behind bottle -->
+  <ellipse cx="240" cy="320" rx="120" ry="220" fill="url(#circleGlow)"/>
+
+  <!-- Bottle shadow -->
+  <ellipse cx="240" cy="540" rx="70" ry="8" fill="#314b20" opacity="0.18"/>
+
+  <!-- BOTTLE -->
+  <g>
+    <!-- Tutup -->
+    <rect x="208" y="105" width="64" height="32" rx="6" fill="url(#tutup)"/>
+    <rect x="208" y="130" width="64" height="6" fill="#314b20" opacity="0.3"/>
+
+    <!-- Leher botol -->
+    <path d="M214 137 L214 175 Q214 180 218 182 L262 182 Q266 180 266 175 L266 137 Z" fill="url(#botol)" stroke="#5d8a3f" stroke-width="1.2"/>
+
+    <!-- Body botol -->
+    <path d="M210 182 Q190 200 184 240 L184 510 Q184 530 204 530 L276 530 Q296 530 296 510 L296 240 Q290 200 270 182 Z" fill="url(#botol)" stroke="#5d8a3f" stroke-width="1.5"/>
+
+    <!-- Highlight glass -->
+    <path d="M196 220 Q190 280 192 380 Q192 460 200 510" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.7" fill="none"/>
+    <path d="M204 250 Q200 320 202 410" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity="0.4" fill="none"/>
+
+    <!-- Jamu (isi) -->
+    <path d="M188 330 L188 510 Q188 528 206 528 L274 528 Q292 528 292 510 L292 330 Z" fill="url(#jamu)"/>
+    <!-- Surface jamu -->
+    <ellipse cx="240" cy="330" rx="52" ry="6" fill="#e3b73b" opacity="0.9"/>
+    <ellipse cx="240" cy="330" rx="52" ry="3" fill="#fdf8ec" opacity="0.4"/>
+
+    <!-- Label kertas -->
+    <rect x="200" y="380" width="80" height="100" rx="3" fill="#fdf8ec" stroke="#9c6f44" stroke-width="1.2"/>
+    <text x="240" y="410" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#314b20">DJAMOJO</text>
+    <text x="240" y="425" text-anchor="middle" font-family="Inter, sans-serif" font-size="6" letter-spacing="1.5" fill="#9c6f44">BY DJAMOE SPIRIT</text>
+    <line x1="215" y1="432" x2="265" y2="432" stroke="#c79919" stroke-width="0.8"/>
+    <text x="240" y="448" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#314b20">Kunyit Asem</text>
+    <text x="240" y="460" text-anchor="middle" font-family="Inter, sans-serif" font-size="5" fill="#9c6f44">250ml · Bandung</text>
+    <!-- Leaf icon on label -->
+    <path d="M240 470 Q234 472 232 478 Q236 482 240 480 Q244 482 248 478 Q246 472 240 470 Z" fill="#5d8a3f"/>
+  </g>
+
+  <!-- Circular arrows (sirkular) -->
+  <g opacity="0.55">
+    <path d="M88 290 A 152 152 0 0 1 130 198" stroke="#5d8a3f" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M125 195 L 132 196 L 130 203" stroke="#5d8a3f" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M392 290 A 152 152 0 0 0 350 198" stroke="#5d8a3f" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M355 195 L 348 196 L 350 203" stroke="#5d8a3f" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M88 350 A 152 152 0 0 0 130 442" stroke="#c79919" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M125 445 L 132 444 L 130 437" stroke="#c79919" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M392 350 A 152 152 0 0 1 350 442" stroke="#c79919" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M355 445 L 348 444 L 350 437" stroke="#c79919" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
